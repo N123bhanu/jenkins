@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build) {
+        stage('Build') {
             steps {
                 echo "✅ Just a simple build stage running."
                 sh 'cat hello.txt'
